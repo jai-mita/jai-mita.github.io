@@ -29,6 +29,7 @@ header p {
     display: grid;
     grid-template-columns: 1fr; /* Single column layout */
     gap: 20px; /* Spacing between sections */
+    overflow-wrap: anywhere;
 }
 
 .profile-photo {
