@@ -1,0 +1,65 @@
+body {
+    font-family: Courier New;
+    margin: 0;
+    padding: 0;
+    font-size: 15.5px;
+}
+
+header {
+    background-color: #f0f0f0; /* lighter color */
+    color: #333; /* darker text color for contrast */
+    padding: 5px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 5px;
+}
+
+header p {
+    margin-top: 5px;
+}
+
+.about-container {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+}
+
+.sections-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column layout */
+    gap: 20px; /* Spacing between sections */
+}
+
+.profile-photo {
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 0px;
+}
+
+section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+section p {
+    line-height: 1.5;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #f0f0f0; /* lighter color */
+    color: #333; /* darker text color for contrast */
+    text-align: center;
+    padding: 10px 0;
+}
+
