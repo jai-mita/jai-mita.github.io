@@ -29,7 +29,7 @@ header p {
     display: grid;
     grid-template-columns: 1fr; /* Single column layout */
     gap: 20px; /* Spacing between sections */
-    overflow-wrap: anywhere;
+    Overflow-wrap: anywhere;
 }
 
 .profile-photo {
@@ -47,6 +47,7 @@ section {
 section h2 {
     font-size: 20px;
     margin-bottom: 10px;
+    margin-top: auto;
 }
 
 section p {
@@ -70,4 +71,7 @@ footer {
     flex-direction: column; /* Stack items vertically on small screens */
     align-items: center; /* Center items horizontally */
   }
-
+  .profile-photo {
+    margin-right: 0px;
+  }
+}
