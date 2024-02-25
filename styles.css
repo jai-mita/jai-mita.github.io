@@ -63,3 +63,10 @@ footer {
     padding: 10px 0;
 }
 
+/* Responsive layout - makes a one column layout (100%) instead of a two-column layout (50%) */
+@media (max-width: 700px) {
+  .about-container {
+    flex-direction: column; /* Stack items vertically on small screens */
+    align-items: center; /* Center items horizontally */
+  }
+
